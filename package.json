@@ -1,0 +1,25 @@
+{
+  "name": "maguirebob-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome detector",
+  "keywords": [
+    "palindrom",
+    "learn-enough",
+    "javascript"
+  ],
+  "homepage": "https://github.com/maguirebob/palindrome#readme",
+  "bugs": {
+    "url": "https://github.com/maguirebob/palindrome/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maguirebob/palindrome.git"
+  },
+  "license": "ISC",
+  "author": "Bob Maguire",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  }
+}
