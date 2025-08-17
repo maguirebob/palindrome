@@ -23,7 +23,11 @@ function Phrase(content) {
   }
 
   // Method: palindrome - Returns true if the string is a palindrome.
-  this.palindrome = function Palindrome() {
-    return this.processedContent() === this.processedContent().reverse();
+  this.palindrome = function palindrome() {
+    if (this.processedContent()) {
+      return this.processedContent() === this.processedContent().reverse();
+    } else {
+      return false;
+    }
   }
 }
